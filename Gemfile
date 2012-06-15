@@ -1,4 +1,5 @@
-source 'http://mirror1.prod.rhcloud.com/mirror/ruby/'
+source 'http://rubygems.org'
+# source 'http://mirror1.prod.rhcloud.com/mirror/ruby/'
 source :rubygems
 
 gem 'rails', '3.1.1'
@@ -8,6 +9,7 @@ gem 'rails', '3.1.1'
 
 gem 'sqlite3'
 gem 'mysql'
+gem 'twitter'
 
 # Use unicorn as the web server
 # gem 'unicorn'
