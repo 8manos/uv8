@@ -7,5 +7,5 @@
 source $OPENSHIFT_DATA_DIR/.rvm/scripts/rvm
 
 # make sure our bundle is up to date
-cd $OPENSHIFT_REPO_DIR/uv8
+cd $OPENSHIFT_REPO_DIR
 bundle
