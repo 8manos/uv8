@@ -1,3 +1,3 @@
 #!/bin/bash
 # kill the server through the pidfile
-kill `cat -- $OPENSHIFT_REPO_DIR/uv8/tmp/pids/thin.pid`
+kill `cat -- $OPENSHIFT_REPO_DIR/tmp/pids/thin.pid`

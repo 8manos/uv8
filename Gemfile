@@ -2,6 +2,8 @@ source 'http://rubygems.org'
 # source 'http://mirror1.prod.rhcloud.com/mirror/ruby/'
 source :rubygems
 
+ruby '1.9.3'
+
 gem 'rails', '3.1.1'
 
 # Bundle edge Rails instead:

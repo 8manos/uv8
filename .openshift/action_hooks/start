@@ -4,7 +4,7 @@ source $OPENSHIFT_DATA_DIR/.rvm/scripts/rvm
 
 # make sure we're in the app-dir so we use the right gemset
 cd $OPENSHIFT_REPO_DIR
-rvm use 1.9.3
+rvm use 1.9.3-p125@uv8
 
 # start the thin server on the internal ip and port
 bundle exec thin start -d -a $OPENSHIFT_INTERNAL_IP -p $OPENSHIFT_INTERNAL_PORT -l $OPENSHIFT_LOG_DIR/thin.log
