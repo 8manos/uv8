@@ -6,3 +6,28 @@ body {
 	margin:0 auto;
 	max-width:980px;
 }
+
+#mas #about {
+	float:left;
+	width:38.5%;
+}
+
+#mas #map {
+	float:right;
+	width:61%;
+}
+
+#nous ul {
+	display:block;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+#nous ul li {
+	display: inline-block;
+	margin:0;
+	padding:0;
+	vertical-align:top;
+	width:19.5%;
+}

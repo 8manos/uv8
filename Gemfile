@@ -13,6 +13,7 @@ gem 'pg'
 gem 'mysql'
 gem 'twitter'
 gem 'instagram'
+gem 'rails_autolink'
 
 # Use thin as the web server
 gem 'thin'
