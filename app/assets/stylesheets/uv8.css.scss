@@ -11,6 +11,7 @@
 }
 
 body {
+	font-family: 'Open Sans', sans-serif;
 	text-align:center;
 }
 
@@ -19,21 +20,46 @@ h2 ,
 h3 ,
 h4 {
 	font-family: 'BebasRegular';
+	word-spacing: 0.125em;
 }
 
 header {
 
 	background-image:url("/images/bg.jpg");
 	background-position:50% 0;
-	padding:30px 0 0;
+	margin:0 0 -75px;
+	padding:30px 0 130px;
 
-	h1{
+	h1 {
 		background-position:0px 0px;
 		height: 119px;
 		margin:0 0 3em;
 		width: 119px;
 	}
 
+	h2.first {
+		margin-top: 1.8em;
+	}
+
+	h2 {
+		background-color:#000;
+		color:transparent;
+		display:inline-block;
+		line-height:38px;
+		margin:0 0 6px;
+		padding:4px 8px 0;
+		text-decoration:none;
+		text-transform:uppercase;
+
+		span {
+			background-image: url("/images/bg.jpg");
+			background-position: 50% -210px;
+			-webkit-text-fill-color: transparent;
+			-webkit-background-clip: text;
+			-moz-background-clip: text;
+			background-clip: text; 
+		}
+	}
 }
 
 #content {
@@ -45,6 +71,7 @@ header {
 
 	#about {
 		float:left;
+		text-align:left;
 		width:38.5%;
 	}
 
@@ -66,6 +93,14 @@ header {
 		padding:0;
 		vertical-align:top;
 		width:19.5%;
+
+		h3 , h4 {
+			margin:0;
+		}
+
+		p {
+			height:114px;
+		}
 	}
 }
 
