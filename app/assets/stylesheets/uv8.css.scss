@@ -2,19 +2,37 @@ body {
 	text-align:center;
 }
 
+header {
+
+	background-image:url("/images/bg.jpg");
+	background-position:50% 0;
+	padding:30px 0 0;
+
+	h1{
+		background-position:0px 0px;
+		height: 119px;
+		margin:0 0 3em;
+		width: 119px;
+	}
+
+}
+
 #content {
 	margin:0 auto;
 	max-width:980px;
 }
 
-#mas #about {
-	float:left;
-	width:38.5%;
-}
+#mas {
 
-#mas #map {
-	float:right;
-	width:61%;
+	#about {
+		float:left;
+		width:38.5%;
+	}
+
+	#map {
+		float:right;
+		width:61%;
+	}
 }
 
 #nous ul {
@@ -22,12 +40,18 @@ body {
 	list-style-type:none;
 	margin:0;
 	padding:0;
+
+	li {
+		display: inline-block;
+		margin:0;
+		padding:0;
+		vertical-align:top;
+		width:19.5%;
+	}
 }
 
-#nous ul li {
-	display: inline-block;
-	margin:0;
-	padding:0;
-	vertical-align:top;
-	width:19.5%;
+.sprite {
+	background-image: url("/images/sprite.png");
+	background-repeat:no-repeat;
+	display:inline-block;
 }
