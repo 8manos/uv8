@@ -84,7 +84,7 @@ header {
 #nous ul {
 	display:block;
 	list-style-type:none;
-	margin:0;
+	margin:0 0 12em;
 	padding:0;
 
 	li {
@@ -98,10 +98,20 @@ header {
 			margin:0;
 		}
 
+		h4 {
+			font-weight:normal;
+			font-size:1.2em;
+			font-style:italic;
+		}
+
 		p {
 			height:114px;
 		}
 	}
+}
+
+.georgia {
+	font-family: georgia, serif;
 }
 
 .sprite {
