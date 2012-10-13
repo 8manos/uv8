@@ -15,6 +15,9 @@ gem 'twitter'
 gem 'instagram'
 gem 'rails_autolink'
 
+#para memcached
+gem 'dalli'
+
 # Use thin as the web server
 gem 'thin'
 
