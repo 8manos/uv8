@@ -1,3 +1,6 @@
+@import "logos/*.png";
+@include all-logos-sprites;
+
 @font-face {
     font-family: 'BebasRegular';
     src: url('/fonts/BEBAS___-webfont.eot');
@@ -112,9 +115,27 @@ header {
 
 #companies {
 	text-align:center;
-	
+
 	li {
 		display: inline-block;
+
+		.logos-sprite {
+			display:inline-block;
+			margin: 0 10px;
+			vertical-align: middle;
+		}
+		.logos-m {
+			height:85px;
+			width:138px;
+		}
+		.logos-u {
+			height:85px;
+			width:116px;			
+		}
+		.logos-v {
+			height:40px;
+			width:170px;
+		}
 	}
 }
 
