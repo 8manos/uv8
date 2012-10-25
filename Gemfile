@@ -30,8 +30,9 @@ gem 'thin'
 group :assets do
     gem 'sass-rails'
     gem 'uglifier'
-    gem 'compass-rails'
 end
+
+gem 'compass-rails'
 
 # Bundle the extra gems:
 # gem 'bj'
