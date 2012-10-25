@@ -28,7 +28,7 @@ gem 'thin'
 # gem 'ruby-debug'
 # gem 'ruby-debug19', :require => 'ruby-debug'
 group :assets do
-    gem 'sass-rails'
+    gem 'sass-rails', '3.1.5'
     gem 'uglifier'
 end
 
