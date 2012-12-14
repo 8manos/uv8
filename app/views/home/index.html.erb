@@ -35,6 +35,14 @@
 
 <section id="hall">
 	<h3>Hall de honor</h3>
+
+	<ul class="slides">
+		<% @medias.data.each do |media| %>
+			<li class="thumb">
+			<%= link_to image_tag(media.images.thumbnail.url), media.images.standard_resolution.url, rel: "lightbox" %>
+			</li>
+		<% end %>
+	</ul>
 </section>
 
 <section class="clearfix" id="mas">

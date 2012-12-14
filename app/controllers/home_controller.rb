@@ -1,5 +1,7 @@
 class HomeController < ApplicationController
   def index
+  	require "instagram"
+
  	@tw_vivas 		= TwitterStatus.new
  	@tw_vivas.user 	= "nataliavivas"
  	@tw_vivas		= @tw_vivas.timeline[0].text
@@ -19,6 +21,8 @@ class HomeController < ApplicationController
  	@tw_mantilla 	= TwitterStatus.new
  	@tw_mantilla.user 	= "mantish"
  	@tw_mantilla	= @tw_mantilla.timeline[0].text
+
+ 	@medias 		= Instagram.tag_recent_media('uv8people')
 
   end
 

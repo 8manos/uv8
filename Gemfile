@@ -14,6 +14,7 @@ gem 'mysql'
 gem 'twitter'
 gem 'instagram'
 gem 'rails_autolink'
+gem 'faraday', '0.7.6'
 
 #para memcached
 gem 'dalli'
