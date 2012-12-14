@@ -108,9 +108,25 @@ header {
 		}
 
 		p {
-			height:124px;
+			height:144px;
 		}
 	}
+}
+
+#hall {
+	padding-bottom: 120px;
+	
+	.slides {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+
+		li {
+			display: inline-block;
+			margin: 20px;
+		}
+	}
+
 }
 
 #companies {

@@ -4,7 +4,9 @@ class HomeController < ApplicationController
 
  	@tw_vivas 		= TwitterStatus.new
  	@tw_vivas.user 	= "nataliavivas"
- 	@tw_vivas		= @tw_vivas.timeline[0].text
+	@av_vivas		= Twitter.user("nataliavivas").profile_image_url.gsub(/_normal(\.gif|\.jpe?g|\.png)$/, "_bigger\\1")
+	@tw_vivas		= @tw_vivas.timeline[0].text
+	
 
  	@tw_maria 		= TwitterStatus.new
  	@tw_maria.user 	= "mariaisabelmc"
