@@ -110,12 +110,20 @@ header {
 		p {
 			height:144px;
 		}
+
+		.avatar {
+			background-position: 50% 50%;
+			background-size: cover;
+			display: inline-block;
+			height: 150px;
+			width: 150px;
+		}
 	}
 }
 
 #hall {
 	padding-bottom: 120px;
-	
+
 	.slides {
 		list-style-type: none;
 		margin: 0;
